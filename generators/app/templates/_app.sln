@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "<%= appNameDotNamespace %>.Api", "<%= applicationFolder %>\<%= appNameDotNamespace %>.Api.csproj", "{<%= apiProjectGuid %>}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "<%= appNameDotNamespace %>.Tests.Unit", "<%= testsUnitFolder %>\<%= appNameDotNamespace %>.Tests.Unit.csproj", "{<%= testsUnitProjectGuid %>}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "<%= appNameDotNamespace %>.Tests.Integration", "<%= testsIntegrationFolder %>\<%= appNameDotNamespace %>.Tests.Integration.csproj", "{<%= testsIntegrationProjectGuid %>}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "<%= appNameDotNamespace %>.Tests.Acceptance", "<%= testsAcceptanceFolder %>\<%= appNameDotNamespace %>.Tests.Acceptance.csproj", "{<%= testsAcceptanceProjectGuid %>}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{<%= apiProjectGuid %>}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{<%= apiProjectGuid %>}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{<%= apiProjectGuid %>}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{<%= apiProjectGuid %>}.Release|Any CPU.Build.0 = Release|Any CPU
+		{<%= testsUnitProjectGuid %>}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{<%= testsUnitProjectGuid %>}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{<%= testsUnitProjectGuid %>}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{<%= testsUnitProjectGuid %>}.Release|Any CPU.Build.0 = Release|Any CPU
+		{<%= testsIntegrationProjectGuid %>}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{<%= testsIntegrationProjectGuid %>}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{<%= testsIntegrationProjectGuid %>}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{<%= testsIntegrationProjectGuid %>}.Release|Any CPU.Build.0 = Release|Any CPU
+		{<%= testsAcceptanceProjectGuid %>}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{<%= testsAcceptanceProjectGuid %>}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{<%= testsAcceptanceProjectGuid %>}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{<%= testsAcceptanceProjectGuid %>}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
