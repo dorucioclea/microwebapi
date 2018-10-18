@@ -15,7 +15,8 @@ Yeoman generator for building micro services in ASP.NET WebAPI 2
 ## Folder Structure
 
 > The following folder structure will be generated
-> ```
+
+```
  - {NameSpace}.{AppName}.Api
  - {NameSpace}.{AppName}.Tests.Acceptance
  - {NameSpace}.{AppName}.Tests.Integration
@@ -28,11 +29,13 @@ Yeoman generator for building micro services in ASP.NET WebAPI 2
 We assume you have pre-installed [node.js](https://nodejs.org/)
 
 ##### Install required tools `yo`:
+
 ```
 npm install -g yo
 ```
 
 ##### Install `generator-microwebapi`:
+
 ```
 npm install -g generator-microwebapi
 ```
@@ -40,11 +43,13 @@ npm install -g generator-microwebapi
 ### Run
 
 ##### Create a new directory, and go into:
+
 ```
 mkdir my-new-project && cd $_
 ```
 
 ##### Run `yo microwebapi`, enter your namespace and project name:
+
 ```
 yo microwebapi
 ```
